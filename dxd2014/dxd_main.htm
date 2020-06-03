@@ -1,0 +1,86 @@
+﻿<html>
+
+<head>
+    <title>학생 작품 소개</title>
+    <meta charset="UTF-8">
+    <meta name="generator" content="Namo WebEditor(Trial)">
+    <link href="https://fonts.googleapis.com/css?family=Lora|Noto+Serif+KR" rel="stylesheet">
+    <style>
+    a{text-decoration:none}
+    p{font-size: 12pt; font-family: "Noto Serif KR", sans-serif; color: #363636;}
+    span{font-size: 12pt; font-family: "Lora", serif; color: #363636;}
+    </style>
+<base target="main">
+<script language="JavaScript">
+<!--
+function namosw_rotate_banner_go() 
+{
+  var targetstr = document._rotatetargets[document._rotate_no];
+  if (targetstr == 'blank') {
+    window.open(document._rotatelinks[document._rotate_no], 'win1');
+  } else {
+    var frameobj;
+    if (targetstr == '') targetstr = 'self';
+    if ((frameobj = eval(targetstr)) != null)
+      frameobj.location = document._rotatelinks[document._rotate_no];
+  }
+}
+
+function namosw_rotate_banner()
+{
+  if (!document._rotateimages) {
+    document._rotateimages  = new Array();
+    document._rotatelinks   = new Array();
+    document._rotatetargets = new Array();
+
+    document._rotate_name = 'image1';
+    document._rotate_interval = 3000;
+    document._rotate_itemnum = 2;
+    document._rotateimages[document._rotateimages.length] = "eleall copy.jpg";
+    document._rotatelinks[document._rotatelinks.length] = "";
+    document._rotatetargets[document._rotatetargets.length] = "self";
+    document._rotateimages[document._rotateimages.length] = "midall copy.jpg";
+    document._rotatelinks[document._rotatelinks.length] = "";
+    document._rotatetargets[document._rotatetargets.length] = "self";
+    setInterval("namosw_rotate_banner()", document._rotate_interval);
+    document._rotate_no = -1;
+  }
+
+  document._rotate_no++;
+  if (document._rotate_no == document._rotateimages.length)
+    document._rotate_no = 0;
+
+  document.images[document._rotate_name].src = document._rotateimages[document._rotate_no];
+}
+
+// -->
+</script></head>
+
+<body bgcolor="white" text="black" link="black" vlink="black" alink="black" OnLoad="namosw_rotate_banner();">
+<table width="582" height="88%" cellpadding="0" cellspacing="0">
+    <tr>
+        <td width="582" height="221" colspan="2" align="left" valign="top">
+            <p><a href="javascript:namosw_rotate_banner_go()" target="_self"><img border="0" src="eleall copy.jpg" width="580" height="293" name="image1"></a></p>
+        </td>
+    </tr>
+    <tr>
+        <td width="246" height="213" align="left" valign="top">
+            <p class="0" style="font-size:14pt;"><b><span style="font-size:14pt;">DxD</span> 2014 &nbsp;수상 작품 소개</b></p>
+            <p class="0" style="line-height:100%; font-size:11pt;"><a href="../steam/operating/eleschedule.htm" target="_blank">초등학생 수상작</a></p>
+            <p class=MsoNormal style="line-height:100%; margin-top:0; margin-bottom:0; font-size:10pt;"><a href="introduce/ele2.htm" target="_self">최우수상: <span style="font-size:10pt;">Run to Box</span>(초등2조)</a></p>
+            <p class=MsoNormal style="line-height:100%; margin-top:0; margin-bottom:0; font-size:10pt;"><a href="introduce/ele3.htm" target="_self">우수상: <span style="font-size:10pt;">Balloon</span>(초등3조)</a></p>
+            <p class=MsoNormal style="line-height:100%; margin-top:0; margin-bottom:0;"></p>
+            <p class=MsoNormal style="line-height:100%; margin-top:0; margin-bottom:0; font-size:10pt;"><a href="introduce/ele1.htm" target="_self">장려상: F22세계대전(초등1조)</a></p>
+            <p class=MsoNormal style="line-height:100%; margin-top:0; margin-bottom:0; font-size:10pt;">&nbsp;</p>
+            <p class="0" style="font-size:11pt;"><a href="../steam/operating/mid_Highschedule.htm" target="_blank">중 고등학생 수상작</a></p>
+            <p style="line-height:100%; margin-top:0; margin-bottom:0; font-size:10pt;"><a href="introduce/midhigh7.htm" target="_self">최우수상: GDP(중고등7조)</a></p>
+            <p class=MsoNormal style="line-height:100%; margin-top:0; margin-bottom:0; font-size:10pt;"><a href="introduce/midhigh1.htm" target="_self">우수상: SSS(중고등 1조)</a></p>
+            <p class=MsoNormal style="line-height:100%; margin-top:0; margin-bottom:0; font-size:10pt;"><a href="introduce/midhigh3.htm" target="_self">장려상: Spin &amp; Shake(중고등 3조)</a></p>
+        </td>
+        <td width="336" height="213" align="left" valign="top">
+            <p class=MsoNormal style='text-align:left; font-size:14pt;'><b>공지사항</b></p>
+            <p style='font-size:11pt;'><a href="notice/131224.htm" target="_blank">프로그램 교육장 교통 안내</a></p>
+            <p style='font-size:11pt;'><a href="notice/131119.htm">프로그램 신청방법</a></p>
+        </td>
+    </tr>
+</table>
